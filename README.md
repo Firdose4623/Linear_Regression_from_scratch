@@ -24,7 +24,7 @@ This project demonstrates how to implement **simple linear regression** using on
 
 After applying feature scaling to the SAT scores and using a learning rate of **0.01**, the model converged effectively, producing the following regression line:
 
-![Regression Result](./path_to_your_plot.png)
+![Regression Result](regression_plot.png)
 
 > Without scaling, large SAT values caused gradient overflow and unstable updates. After standardizing the SAT values, the model trained smoothly and showed a clear positive trend between SAT and GPA.
 
